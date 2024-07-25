@@ -15,10 +15,12 @@ public class Selecciones {
 
         System.out.println("Antes del if");
 
-        if(a != b) {
-            System.out.println("Los valores ingresados son distintos.");
+        if(a > b) {
+            System.out.println("El valor a es mayor a b.");
+        } else if(a < b) {
+            System.out.println("El valor a es menor a b");
         } else {
-            System.out.println("Los valores ingresados son iguales.");
+            System.out.println("El valor a es igual a b");
         }
 
         System.out.println("Despues del if");
