@@ -16,7 +16,9 @@ public class Selecciones {
         System.out.println("Antes del if");
 
         if(a != b) {
-            System.out.println("La expresión es verdadera");
+            System.out.println("Los valores ingresados son distintos.");
+        } else {
+            System.out.println("Los valores ingresados son iguales.");
         }
 
         System.out.println("Despues del if");
