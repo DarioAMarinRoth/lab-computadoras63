@@ -6,16 +6,15 @@ public class Ejercicio4 {
 
         int edad;
         double altura;
-        String nombre;
+        String nombre; // "12"
 
         Scanner ent = new Scanner(System.in);
 
         System.out.println("Ingrese su edad: ");
-        edad = ent.nextInt();
+        edad = Integer.parseInt(ent.nextLine());
         System.out.println("Ingrese su altura: ");
-        altura = ent.nextDouble();
+        altura = Double.parseDouble(ent.nextLine());
         System.out.println("Ingrese su nombre: ");
-        ent.nextLine();
         nombre = ent.nextLine();
 
         System.out.println("Mi nombre es " + nombre + " mido " + altura + " metros y tengo " + edad + " años.");
